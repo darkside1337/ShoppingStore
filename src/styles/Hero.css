@@ -1,0 +1,35 @@
+.hero__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 600px;
+}
+
+.hero {
+    background-image: url(../assets/Sprinkle.svg);
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+
+
+.hero__right img {
+    max-height: 500px;
+    object-fit: cover;
+}
+
+.hero__left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 16px;
+
+}
+
+.hero.container {
+    display: flex;
+    justify-content: center;
+    color: black;
+    align-items: center;
+    gap: 16px;
+}

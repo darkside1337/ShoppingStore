@@ -1,0 +1,54 @@
+footer {
+    background-color: #AAFAC8;
+    color: black;
+    display: flex;
+    min-height: 200px;
+    align-items: center;
+    gap: 16px;
+    padding: 16px 32px;
+    justify-content: space-evenly;
+}
+
+.clickHover {
+    cursor: pointer;
+}
+
+.home__container,
+.home__section,
+.footer__contacts {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.d_flex_c {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__contacts>p {
+    display: flex;
+    gap: 8px;
+}
+
+.footer__logo img {
+    border-radius: 8px;
+}
+
+.home__container a span {
+    display: flex;
+}
+
+.socials {
+    gap: 16px;
+}
+
+.h3__title,
+.footer__anchor {
+    display: flex;
+    gap: 8px;
+}
+
+footer a {
+    color: black;
+}

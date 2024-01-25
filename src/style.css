@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700;1,600;1,700&display=swap');
+
+/* ---------------------------------- fonts --------------------------------- */
+body {
+    font-family: "Poppins", sans-serif;
+    color: white;
+    min-height: 100vh;
+}
+
+::selection {
+    background-color: #ffdf00;
+    color: black;
+}
+
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.poppins-semibold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.poppins-bold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.poppins-semibold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+}
+
+/* -------------------------------- container ------------------------------- */
+.container {
+    margin: 0 auto;
+    width: 90%;
+    max-width: 1240px;
+}
+
+main {
+    min-height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.d_flex_r {
+    display: flex;
+    flex-direction: row;
+}
+
+.d_flex_c {
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 450px) {
+    footer {
+        flex-direction: column;
+        align-items: flex-start !important;
+    }
+
+    .hero.container {
+        flex-direction: column !important;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .hero.container .hero__left {
+        text-align: center;
+    }
+
+    .hero__left button.learn-more {
+        margin-inline: auto !important;
+    }
+
+    .socials.d_flex_c {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .single__product {
+        flex-direction: column;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .single__product .product_left {
+        max-height: 50%;
+        width: 100%;
+    }
+
+    .single__product .product_left img {
+        width: 100%;
+    }
+
+    main .single__product__container {
+        width: 90%;
+    }
+
+    .single__product .product_right {
+        height: 50%;
+        width: 100%;
+    }
+}
